@@ -1,0 +1,30 @@
+# --- Dataset (195 MB, not redistributed -- see data/README.md) ---
+data/*.csv
+data/*.csv.gz
+data/*.root
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Experiment artefacts ---
+# Results JSON and figures ARE committed so the README renders without a rerun.
+# Trained model dumps and run logs are not.
+experiments/models/
+experiments/*.log
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/

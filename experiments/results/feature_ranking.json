@@ -1,0 +1,156 @@
+{
+  "test_auc_all_features": 0.9107284890320797,
+  "n_events": 200000,
+  "ranking": [
+    {
+      "feature": "DER_mass_MMC",
+      "auc_drop": 0.12462297272911056,
+      "std": 0.0011542936298780037
+    },
+    {
+      "feature": "DER_mass_vis",
+      "auc_drop": 0.037450459805540584,
+      "std": 0.0006000030520097712
+    },
+    {
+      "feature": "DER_mass_transverse_met_lep",
+      "auc_drop": 0.03037316286596965,
+      "std": 0.0005788547702826225
+    },
+    {
+      "feature": "PRI_tau_pt",
+      "auc_drop": 0.020144672941236876,
+      "std": 0.0005979988955271479
+    },
+    {
+      "feature": "DER_deltar_tau_lep",
+      "auc_drop": 0.012877551393320563,
+      "std": 0.00034620159731387927
+    },
+    {
+      "feature": "DER_met_phi_centrality",
+      "auc_drop": 0.006736105417435412,
+      "std": 0.00015695409729290987
+    },
+    {
+      "feature": "PRI_jet_leading_eta",
+      "auc_drop": 0.006403968810463634,
+      "std": 0.00023364491505208982
+    },
+    {
+      "feature": "DER_lep_eta_centrality",
+      "auc_drop": 0.003676648350020617,
+      "std": 0.0001720317132909909
+    },
+    {
+      "feature": "PRI_lep_eta",
+      "auc_drop": 0.0036110145295379812,
+      "std": 0.0002162305942777354
+    },
+    {
+      "feature": "DER_pt_tot",
+      "auc_drop": 0.002849333672972931,
+      "std": 0.00010562405447566948
+    },
+    {
+      "feature": "DER_mass_jet_jet",
+      "auc_drop": 0.0027623519324346812,
+      "std": 0.00022552002350512745
+    },
+    {
+      "feature": "PRI_met",
+      "auc_drop": 0.00255116197774079,
+      "std": 0.00014165244887359187
+    },
+    {
+      "feature": "PRI_met_sumet",
+      "auc_drop": 0.00232640440930445,
+      "std": 0.00019087908606768095
+    },
+    {
+      "feature": "DER_deltaeta_jet_jet",
+      "auc_drop": 0.0020107495190112125,
+      "std": 0.00012767141469714201
+    },
+    {
+      "feature": "PRI_tau_eta",
+      "auc_drop": 0.0017683035520240642,
+      "std": 0.00017812066600056948
+    },
+    {
+      "feature": "DER_pt_h",
+      "auc_drop": 0.0016681222837254372,
+      "std": 0.00010797979485465984
+    },
+    {
+      "feature": "PRI_jet_subleading_pt",
+      "auc_drop": 0.001260173478674398,
+      "std": 4.542995501077694e-05
+    },
+    {
+      "feature": "PRI_jet_leading_pt",
+      "auc_drop": 0.0010535239623725046,
+      "std": 7.332898725771148e-05
+    },
+    {
+      "feature": "PRI_jet_num",
+      "auc_drop": 0.000908052470155285,
+      "std": 9.202203723152576e-05
+    },
+    {
+      "feature": "DER_sum_pt",
+      "auc_drop": 0.0008799822687113323,
+      "std": 0.0001937488847650215
+    },
+    {
+      "feature": "DER_pt_ratio_lep_tau",
+      "auc_drop": 0.0007569302357426366,
+      "std": 4.6045484872347416e-05
+    },
+    {
+      "feature": "DER_prodeta_jet_jet",
+      "auc_drop": 0.00037191407648347053,
+      "std": 7.848367123313594e-05
+    },
+    {
+      "feature": "PRI_lep_pt",
+      "auc_drop": 0.0002618449873492246,
+      "std": 3.250713185734475e-05
+    },
+    {
+      "feature": "PRI_jet_all_pt",
+      "auc_drop": 0.00023230422016939922,
+      "std": 5.018462134712246e-05
+    },
+    {
+      "feature": "PRI_jet_subleading_eta",
+      "auc_drop": 0.0001711201502279769,
+      "std": 1.6827965908581146e-05
+    },
+    {
+      "feature": "PRI_jet_subleading_phi",
+      "auc_drop": 8.85714452152575e-05,
+      "std": 3.042814947683311e-05
+    },
+    {
+      "feature": "PRI_jet_leading_phi",
+      "auc_drop": 7.3042484427166e-05,
+      "std": 4.727181897236817e-05
+    },
+    {
+      "feature": "PRI_tau_phi",
+      "auc_drop": 2.3454367662290033e-05,
+      "std": 2.2931489745510335e-05
+    },
+    {
+      "feature": "PRI_met_phi",
+      "auc_drop": 3.1538033726796755e-06,
+      "std": 3.105888574396594e-05
+    },
+    {
+      "feature": "PRI_lep_phi",
+      "auc_drop": -2.1526450648035046e-05,
+      "std": 3.999084777194394e-05
+    }
+  ]
+}

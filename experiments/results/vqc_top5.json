@@ -1,0 +1,64 @@
+{
+  "features": [
+    "DER_mass_MMC",
+    "DER_mass_vis",
+    "DER_mass_transverse_met_lep",
+    "PRI_tau_pt",
+    "DER_deltar_tau_lep"
+  ],
+  "ensemble_ams": 2.9301436668937777,
+  "single_ams": [
+    2.2084925774611928,
+    2.4081028951846615,
+    2.093116150878712,
+    2.141155182997762,
+    3.383957610244595
+  ],
+  "single_mean": 2.4469648833533846,
+  "single_std": 0.48063773537967647,
+  "running_ensemble_ams": [
+    2.2084925774611928,
+    2.592774139730697,
+    2.7780189919230183,
+    2.912453077786267,
+    2.9301436668937777
+  ],
+  "gboost_ams": [
+    3.0150212641333196,
+    2.665506263856462,
+    2.70758233123252,
+    2.88043714333628,
+    2.828936368479925
+  ],
+  "gboost_mean": 2.8194966742077012,
+  "gboost_std": 0.12511641020653927,
+  "trivial_ams": 1.2650020323968023,
+  "n_models": 5,
+  "config": {
+    "features": [
+      "DER_mass_MMC",
+      "DER_mass_vis",
+      "DER_mass_transverse_met_lep",
+      "PRI_tau_pt",
+      "DER_deltar_tau_lep"
+    ],
+    "subsample": 1000,
+    "test_size": 0.3,
+    "seed": 42,
+    "preprocessing": "quantile",
+    "num_layers": 5,
+    "fixed_angles": [
+      0.0,
+      0.0,
+      1.5707963267948966
+    ],
+    "ring": true,
+    "optimizer": "rmsprop",
+    "stepsize": 0.05,
+    "epochs": 45,
+    "batch_size": 20,
+    "eval_every": 5,
+    "output_dir": "experiments",
+    "n_qubits": 5
+  }
+}
